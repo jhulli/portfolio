@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?g22g8c');
+  src:  url('fonts/icomoon.eot?g22g8c#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?g22g8c') format('truetype'),
+    url('fonts/icomoon.woff?g22g8c') format('woff'),
+    url('fonts/icomoon.svg?g22g8c#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gamepad:before {
+  content: "\e90a";
+}
+.icon-align-justify:before {
+  content: "\e900";
+}
+.icon-book-open:before {
+  content: "\e901";
+}
+.icon-chevrons-up:before {
+  content: "\e902";
+}
+.icon-github:before {
+  content: "\e903";
+}
+.icon-linkedin:before {
+  content: "\e904";
+}
+.icon-mail:before {
+  content: "\e905";
+}
+.icon-map-pin:before {
+  content: "\e906";
+}
+.icon-message-square:before {
+  content: "\e907";
+}
+.icon-monitor:before {
+  content: "\e909";
+}
+.icon-x:before {
+  content: "\e908";
+}
